@@ -13,7 +13,7 @@ const App = () => {
   
   const [selected, setSelected] = useState(0)
   const [points, setPoints] = useState(new Uint8Array(7))
-  const [mostVotes, setMostVotes] = useState('no votes yet')
+  const [mostVotes, setMostVotes] = useState('')
   const [highest, setHighest] = useState(0)
   const [vote, setVote] = useState(false)
 
